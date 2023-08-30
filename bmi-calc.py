@@ -38,6 +38,8 @@ def main():
     weight = st.number_input("Enter your weight in kilograms (4 to 150 kg):", min_value=4, max_value=150)
 
     calculate_button = st.button("Calculate BMI")
+    st.sidebar.text("Made by Sai sarath")
+    st.sidebar.text("Contact:sarathpagadala.777@gmail.com ")
 
     if calculate_button:
         try:
