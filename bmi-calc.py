@@ -39,6 +39,10 @@ def main():
 
     calculate_button = st.button("Calculate BMI")
 
+    st.sidebar.text("Made by sai_sarath😉😎")
+    st.sidebar.text("Contact:sarathpagadala.777@gmail.com ")
+
+
     if calculate_button:
         try:
             birthdate = dob
