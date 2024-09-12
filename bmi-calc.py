@@ -39,8 +39,8 @@ def main():
 
     calculate_button = st.button("Calculate BMI")
 
-    st.sidebar.text("Made by sai_sarath😉😎")
-    st.sidebar.text("Contact:sarathpagadala.777@gmail.com ")
+    st.sidebar.text("Made by Raya😉😎")
+    st.sidebar.text("Contact: miapalakova@bangban.uk")
 
 
     if calculate_button:
